@@ -1,0 +1,11 @@
+Smiles	tag 
+C1[C@H]([C@@H]([C@@H]([C@H]1OCOC)O)O)O[H]	omega_9237
+C1[C@H]([C@@H]([C@@H]([C@H]1OCOC)O)O)N([H])[H]	omega_9237
+[C@@H]1([C@H]([C@@H](O[C@@H]1CCOC)O[H])O)O	omega_7937
+[C@@H]1([C@H]([C@@H](O[C@@H]1CCOC)N([H])[H])O)O	omega_7937
+[C@H]1([C@@H]([C@@](C)(CCO)O[C@H]1O[H])O)O	omega_87569
+[C@H]1([C@@H]([C@@](C)(CCO)O[C@H]1N([H])[H])O)O	omega_87569
+C(=C\CO)/[C@@H]1[C@H]([C@H]([C@@H](O1)O[H])O)O	omega_41259
+C(=C\CO)/[C@@H]1[C@H]([C@H]([C@@H](O1)N([H])[H])O)O	omega_41259
+C(=C\[C@@H]1[C@H]([C@H]([C@@H](O1)O[H])O)O)/C=O	omega_73306
+C(=C\[C@@H]1[C@H]([C@H]([C@@H](O1)N([H])[H])O)O)/C=O	omega_73306
