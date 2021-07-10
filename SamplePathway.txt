@@ -1,0 +1,26 @@
+Go through all possible 1st reactions
+Go through all possible 2nd reactions (for each reactant of the 1st reactions)
+.
+.
+.
+
+At each stage:
+If a reaction yields no reagents not already present in the pathway, prune this pathway
+If a reaction yields only same reagent back, prune this pathway 
+
+At each branch point, produce an entire new pathway 
+
+
+
+
+Z (endpoint)
+A, B (start points)
+
+E+F = Z (1), C+D = Z (2)
+
+2A = E (3), A+B = E (4), A+2B = F (5), 2A+B= = F (6)
+
+135, 136, 145, 146
+
+
+

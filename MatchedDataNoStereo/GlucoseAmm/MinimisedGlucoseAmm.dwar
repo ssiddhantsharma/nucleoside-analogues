@@ -1,11 +1,9 @@
 <datawarrior-fileinfo>
 <version="3.3">
-<created="1625662545212">
+<created="1625747526594">
 <rowcount="7081">
 </datawarrior-fileinfo>
 <column properties>
-<columnName="Structure">
-<columnProperty="specialType	idcode">
 <columnName="idcoordinates2D">
 <columnProperty="parent	Structure">
 <columnProperty="specialType	idcoordinates2D">
@@ -16,6 +14,8 @@
 <columnProperty="parent	Structure">
 <columnProperty="specialType	FragFp">
 <columnProperty="version	1.2.1">
+<columnName="Structure">
+<columnProperty="specialType	idcode">
 </column properties>
 idcoordinates2D	idcoordinates3D	FragFp	Structure	Structure No	Generation	Inchi	Smiles	Energy	Molecular Formula	Monoisotopic Mass	cLogP	cLogS	H-Acceptors	H-Donors	Polar Surface Area	Druglikeness
 	#qJzVQFp|]ctuEKg??H^EtHHte^c}roWJQqfzjosbzSx^N`mKLAO\NPpNQqYyENymZ^OsL]Pw]|yJ^Rm^Rp{fl_aS{QgVr]UO]yPeDqGKyk^XDocgxy`zw\qSZERj`@J`AZ@D	xvkEBLkX0D2k0VCVY0WV04F01F8FHF&m402%VF$F%1#V%J%4#4$@050	daxB@@rnRV{ZjdP`j@@	1	G1	YTBSYETUWUMLBZ	C(C(C(CO)O)O)=O	53.0145	C4H8O4	120.04226	-2.2233	0.073	4	3	77.76	-3.2748
@@ -7112,30 +7112,36 @@ idcoordinates2D	idcoordinates3D	FragFp	Structure	Structure No	Generation	Inchi	S
 <axisColumn_2D View_5_1="Polar Surface Area">
 <axisColumn_2D View_6_0="Monoisotopic Mass">
 <axisColumn_2D View_6_1="Druglikeness">
+<axisColumn_2D View_7_0="cLogP">
+<axisColumn_2D View_7_1="H-Acceptors">
 <chartType_2D View="scatter">
 <chartType_2D View_2="scatter">
 <chartType_2D View_3="scatter">
 <chartType_2D View_4="scatter">
 <chartType_2D View_5="scatter">
 <chartType_2D View_6="scatter">
+<chartType_2D View_7="scatter">
 <colorColumn_2D View="Generation">
 <colorColumn_2D View_2="Generation">
 <colorColumn_2D View_3="Generation">
 <colorColumn_2D View_4="Generation">
 <colorColumn_2D View_5="Generation">
 <colorColumn_2D View_6="Generation">
+<colorColumn_2D View_7="Generation">
 <colorCount_2D View="4">
 <colorCount_2D View_2="4">
 <colorCount_2D View_3="4">
 <colorCount_2D View_4="4">
 <colorCount_2D View_5="4">
 <colorCount_2D View_6="4">
+<colorCount_2D View_7="4">
 <colorListMode_2D View="Categories">
 <colorListMode_2D View_2="Categories">
 <colorListMode_2D View_3="Categories">
 <colorListMode_2D View_4="Categories">
 <colorListMode_2D View_5="Categories">
 <colorListMode_2D View_6="Categories">
+<colorListMode_2D View_7="Categories">
 <color_2D View_0="-11992833">
 <color_2D View_1="-65494">
 <color_2D View_2="-16732826">
@@ -7160,6 +7166,10 @@ idcoordinates2D	idcoordinates3D	FragFp	Structure	Structure No	Generation	Inchi	S
 <color_2D View_6_1="-65494">
 <color_2D View_6_2="-16732826">
 <color_2D View_6_3="-256">
+<color_2D View_7_0="-11992833">
+<color_2D View_7_1="-65494">
+<color_2D View_7_2="-16732826">
+<color_2D View_7_3="-256">
 <columnFilter_Table="">
 <columnWidth_Table_Druglikeness="80">
 <columnWidth_Table_Energy="80">
@@ -7175,13 +7185,14 @@ idcoordinates2D	idcoordinates3D	FragFp	Structure	Structure No	Generation	Inchi	S
 <columnWidth_Table_Structure No="80">
 <columnWidth_Table_cLogP="80">
 <columnWidth_Table_cLogS="80">
-<detailView="height[Data]=0.33333;height[Structure]=0.33333;height[3D-Structure]=0.33333">
+<detailView="height[Data]=0.33333;height[3D-Structure]=0.33333;height[Structure]=0.33333">
 <fastRendering_2D View="false">
 <fastRendering_2D View_2="false">
 <fastRendering_2D View_3="false">
 <fastRendering_2D View_4="false">
 <fastRendering_2D View_5="false">
 <fastRendering_2D View_6="false">
+<fastRendering_2D View_7="false">
 <filter0="#browser#	#disabled#	Structure	daDB@@qnRf]JjjjrJBHj`@">
 <filter1="#structure#	Structure">
 <filter10="#double#	cLogS">
@@ -7208,9 +7219,9 @@ idcoordinates2D	idcoordinates3D	FragFp	Structure	Structure No	Generation	Inchi	S
 <filterAnimation8="state=stopped low2=80% high1=20% time=10">
 <filterAnimation9="state=stopped low2=80% high1=20% time=10">
 <headerLines_Table="2">
-<mainSplitting="0.71868">
-<mainView="2D View_6">
-<mainViewCount="7">
+<mainSplitting="0.71866">
+<mainView="2D View_7">
+<mainViewCount="8">
 <mainViewDockInfo0="root">
 <mainViewDockInfo1="Table	center">
 <mainViewDockInfo2="2D View	center">
@@ -7218,7 +7229,8 @@ idcoordinates2D	idcoordinates3D	FragFp	Structure	Structure No	Generation	Inchi	S
 <mainViewDockInfo4="2D View_3	center">
 <mainViewDockInfo5="2D View_4	center">
 <mainViewDockInfo6="2D View_5	center">
-<mainViewInFront6="true">
+<mainViewDockInfo7="2D View_6	center">
+<mainViewInFront7="true">
 <mainViewName0="Table">
 <mainViewName1="2D View">
 <mainViewName2="2D View_2">
@@ -7226,6 +7238,7 @@ idcoordinates2D	idcoordinates3D	FragFp	Structure	Structure No	Generation	Inchi	S
 <mainViewName4="2D View_4">
 <mainViewName5="2D View_5">
 <mainViewName6="2D View_6">
+<mainViewName7="2D View_7">
 <mainViewType0="tableView">
 <mainViewType1="2Dview">
 <mainViewType2="2Dview">
@@ -7233,13 +7246,15 @@ idcoordinates2D	idcoordinates3D	FragFp	Structure	Structure No	Generation	Inchi	S
 <mainViewType4="2Dview">
 <mainViewType5="2Dview">
 <mainViewType6="2Dview">
+<mainViewType7="2Dview">
 <markersize_2D View="0.4096">
 <markersize_2D View_2="0.4096">
 <markersize_2D View_3="0.4096">
 <markersize_2D View_4="0.4096">
 <markersize_2D View_5="0.4096">
 <markersize_2D View_6="0.4096">
-<rightSplitting="0.64885">
+<markersize_2D View_7="0.4096">
+<rightSplitting="0.64846">
 <rowHeight_Table="80">
 <scaleStyle_2D View="frame">
 <scaleStyle_2D View_2="frame">
@@ -7247,16 +7262,19 @@ idcoordinates2D	idcoordinates3D	FragFp	Structure	Structure No	Generation	Inchi	S
 <scaleStyle_2D View_4="frame">
 <scaleStyle_2D View_5="frame">
 <scaleStyle_2D View_6="frame">
+<scaleStyle_2D View_7="frame">
 <scatterplotMargin_2D View="0.025">
 <scatterplotMargin_2D View_2="0.025">
 <scatterplotMargin_2D View_3="0.025">
 <scatterplotMargin_2D View_4="0.025">
 <scatterplotMargin_2D View_5="0.025">
 <scatterplotMargin_2D View_6="0.025">
+<scatterplotMargin_2D View_7="0.025">
 <showNaNValues_2D View="true">
 <showNaNValues_2D View_2="true">
 <showNaNValues_2D View_3="true">
 <showNaNValues_2D View_4="true">
 <showNaNValues_2D View_5="true">
 <showNaNValues_2D View_6="true">
+<showNaNValues_2D View_7="true">
 </datawarrior properties>
