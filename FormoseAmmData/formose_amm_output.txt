@@ -1,4 +1,4 @@
-Generation	Smiles
+Generation	SMILES
 G0	N
 G0	C=O
 G0	C(CO)=O
