@@ -1,0 +1,16 @@
+No. Reactions	Threshold No. Complete Trees	Actual No. Complete Trees	Time
+1000	1	1	0.202s
+1000	10	27	6s
+1000	Max	69	26.1s
+2000	1	1	0.42s
+2000	10	27	11.8s
+2000	Max	69	51.8s
+5000	1	1	3.57s
+5000	10	51	4min 32s
+5000	Max	?	>1hour
+10000	1	1	7.18s
+10000	10	60	24min 1s
+10000	Max
+54526	1	1	1min 50s
+54526	10	?	>1hour
+54526	Max
