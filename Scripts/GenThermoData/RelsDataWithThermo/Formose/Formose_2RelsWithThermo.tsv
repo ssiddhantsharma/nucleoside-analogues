@@ -1,0 +1,47 @@
+Index	Reagents	Products	Rule	Energy Change
+4_0	['C=O', 'C(CO)=O']	['C(C(CO)O)=O']	Aldol Condensation	-32.62
+4_1	['C=O', 'C(CO)=O']	['C(C(CO)O)=O']	Knoevenagel H	-32.62
+6_0	['C(CO)=O', 'C(CO)=O']	['C(C(C(CO)O)O)=O']	Aldol Condensation	-16.39
+6_1	['C(CO)=O', 'C(CO)=O']	['C(C(C(CO)O)O)=O']	Knoevenagel H	-16.39
+7_0	['C(CO)=O']	['C(CO)=O']	Keto-enol migration twice	0.0
+10_0	['C=O', 'C=O', 'O']	['CO', 'C(O)=O']	Cannizarro 2, HCHO (oxidation)	-37.85
+10_1	['C=O', 'C=O', 'O']	['CO', 'C(O)=O']	Cannizarro 2, HCHO (reduction)	-37.85
+12_0	['C=O', 'C(CO)=O', 'O']	['C(O)=O', 'C(CO)O']	Cannizarro 2, HCHO (oxidation)	-27.97
+14_0	['C=O', 'C(CO)=O', 'O']	['CO', 'C(CO)(O)=O']	Cannizarro 2, HCHO (reduction)	-52.92
+16_0	['C(CO)=O', 'C(C(CO)O)=O']	['C(C(C(C(CO)O)O)O)=O']	Aldol Condensation	-13.37
+16_1	['C(CO)=O', 'C(C(CO)O)=O']	['C(C(C(C(CO)O)O)O)=O']	Knoevenagel H	-13.37
+18_0	['C(CO)=O', 'C(C(C(CO)O)O)=O']	['C(C(C(C(C(CO)O)O)O)O)=O']	Aldol Condensation	-13.37
+18_1	['C(CO)=O', 'C(C(C(CO)O)O)=O']	['C(C(C(C(C(CO)O)O)O)O)=O']	Knoevenagel H	-13.37
+20_0	['C(CO)(O)=O']	['O', 'C(C=O)=O']	Benzilic Acid Rearrangement (inverse)	36.99
+21_0	['C(C(CO)O)=O']	['C=O', 'C(CO)=O']	Retro Aldol	32.62
+21_1	['C(C(CO)O)=O']	['C=O', 'C(CO)=O']	Knoevenagel H (inv)	32.62
+22_0	['C(C(C(CO)O)O)=O']	['C(CO)=O', 'C(CO)=O']	Retro Aldol	16.39
+22_1	['C(C(C(CO)O)O)=O']	['C(CO)=O', 'C(CO)=O']	Knoevenagel H (inv)	16.39
+24_0	['C(C(CO)O)=O']	['C(CO)(CO)=O']	Keto-enol migration twice	-2.18
+26_0	['C(C(C(CO)O)O)=O']	['C(CO)(C(CO)O)=O']	Keto-enol migration twice	-2.0
+28_0	['C=O', 'O', 'C(C(CO)O)=O']	['C(O)=O', 'C(C(CO)O)O']	Cannizarro 2, HCHO (oxidation)	-30.39
+30_0	['C=O', 'O', 'C(C(C(CO)O)O)=O']	['C(O)=O', 'C(C(C(CO)O)O)O']	Cannizarro 2, HCHO (oxidation)	-24.95
+32_0	['C=O', 'O', 'C(C(CO)O)=O']	['CO', 'C(C(CO)O)(O)=O']	Cannizarro 2, HCHO (reduction)	-30.17
+34_0	['C=O', 'O', 'C(C(C(CO)O)O)=O']	['CO', 'C(C(C(CO)O)O)(O)=O']	Cannizarro 2, HCHO (reduction)	-30.17
+36_0	['C(C(CO)O)=O', 'C(C(CO)O)=O']	['C(C(CO)(C(C(CO)O)O)O)=O']	Knoevenagel C	-7.7
+36_1	['C(C(CO)O)=O', 'C(C(CO)O)=O']	['C(C(CO)(C(C(CO)O)O)O)=O']	Knoevenagel H	-7.7
+38_0	['C=O', 'C(C(CO)O)=O']	['C(C(CO)(CO)O)=O']	Knoevenagel C	-26.95
+38_1	['C=O', 'C(C(CO)O)=O']	['C(C(CO)(CO)O)=O']	Knoevenagel H	-26.95
+40_0	['C=O', 'C(C(C(CO)O)O)=O']	['C(C(CO)(C(CO)O)O)=O']	Knoevenagel C	-26.95
+40_1	['C=O', 'C(C(C(CO)O)O)=O']	['C(C(CO)(C(CO)O)O)=O']	Knoevenagel H	-26.95
+41_0	['C(CO)=O', 'C(C(CO)O)=O']	['C(C(CO)(C(CO)O)O)=O']	Knoevenagel C	-10.73
+41_1	['C(CO)=O', 'C(C(CO)O)=O']	['C(C(CO)(C(CO)O)O)=O']	Knoevenagel H	-10.73
+43_0	['C(CO)=O', 'C(C(C(CO)O)O)=O']	['C(C(C(CO)O)(C(CO)O)O)=O']	Knoevenagel C	-10.73
+43_1	['C(CO)=O', 'C(C(C(CO)O)O)=O']	['C(C(C(CO)O)(C(CO)O)O)=O']	Knoevenagel H	-10.73
+45_0	['C(C(CO)O)=O', 'C(CO)(O)=O']	['C(C(C(C(CO)O)O)O)(O)=O']	Knoevenagel H	9.38
+47_0	['C(C(C(CO)O)O)=O', 'C(CO)(O)=O']	['C(C(C(C(C(CO)O)O)O)O)(O)=O']	Knoevenagel H	9.38
+48_0	['C=O', 'C(CO)(O)=O']	['C(C(CO)O)(O)=O']	Knoevenagel H	-9.87
+49_0	['C(CO)=O', 'C(CO)(O)=O']	['C(C(C(CO)O)O)(O)=O']	Knoevenagel H	6.36
+51_0	['C(C(CO)O)=O']	['O', 'C(CC=O)=O']	Elimination + enol to keto	-51.84
+53_0	['C(C(CO)O)=O']	['O', 'C(C(C)=O)=O']	Elimination + enol to keto	-47.05
+55_0	['C(C(C(CO)O)O)=O']	['O', 'C(C(CCO)=O)=O']	Elimination + enol to keto	-41.01
+57_0	['C(C(C(CO)O)O)=O']	['O', 'C(CC(C=O)O)=O']	Elimination + enol to keto	-39.01
+59_0	['C(C(C(CO)O)O)=O']	['O', 'C(CC(CO)=O)=O']	Elimination + enol to keto	-49.2
+61_0	['C(C(C(CO)O)O)=O']	['O', 'C(C(C(C)=O)O)=O']	Elimination + enol to keto	-102.36
+63_0	['C(CO)O']	['O', 'C(C)=O']	Elimination + enol to keto	-43.23
+65_0	['C(C(C(CO)O)O)=O']	['C1C(C(C(O)O1)O)O']	Hemiacetal Formation for 5 membered rings	-1.6
