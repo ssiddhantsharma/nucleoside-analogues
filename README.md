@@ -92,4 +92,20 @@ The index finder function iterates through the rels files and identifies the ind
 The function then iterates through all the possible reactions and identifies the reaction with the lowest deltaG for which none of the reagents, found using the precursor_finder function, are not in the path of the target molecule (to prevent creation of a loop)
 The function then returns the index of the lowest deltaG valid reaction
 The precursor_finder function iterates through the rels file and identifies the reactions with the index returned by the index_finder function and returns all reagents of that reaction 
+Define a function which, for an input set of matches, uses the above functions to find a path producing each matched molecule (with the most negative deltaG step taken at each juncture) and the total energy change associated with the path
+Append the generation, SMILES representation, inchikey representation, path and total energy change to lists for each match
+Create a dictionary based on the above lists and from this, a dataframe 
+Define a function which, for a specific input molecule, finds every valid path producing the molecule and the total energy change associated with each path
+Define a tree_copier function which copies an input tree, updating the tag of all constituent nodes (to prevent assigning nodes of copied trees identical tags yielding an error)
+Use the map_tree function as before but at each juncture, where multiple reactions produce a specific molecule, use the tree_copier function to produce a new tree with the precursors of each valid reaction as children nodes. Append newly created trees to the list of all trees for the input molecule.
+For each precursor reaction identified, append the reaction ID to the list of reactions for that path
+Iterate through the first tree completely until the tree is either complete (all nodes of the deepest layer are base molecules), so set tree status for that tree to True, or all possible precursors for a node of the tree are found in the path to that node, so set the tree to ‘NaN’
+Once the first tree has been iterated through, iterate through the second tree of the tree list (generated from a juncture of the first tree) in the same manner 
+Iterate through all trees of the tree list, identifying whether they have been completed or are invalid paths 
+Iterate over the reaction IDs for each path and calculate their total energy change by finding the corresponding energy change for each reaction ID by iterating through the processed rels file and summing these energy changes 
+Define a dictionary containing all paths, the reaction IDs of reactions comprising each path and the total energy change associated with each path. Generate a dataframe from this dictionary and save it to file 
+For each iteration through all the trees, print the no. trees and the no. complete trees 
+Define as an argument of the map_trees function and threshold number of completed trees
+As soon as the no. completed trees exceeds the threshold, break the while loop and complete the process of iteration (set the value of this argument to an arbitrarily large number to perform a complete iteration through all possible paths)
+
 
