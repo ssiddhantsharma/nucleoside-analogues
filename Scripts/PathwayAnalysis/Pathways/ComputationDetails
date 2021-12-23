@@ -1,0 +1,28 @@
+Computation Details
+Formose:
+Spontaneous
+G1 - Cumulative total no. Molecules = 0, Computation time = 32.2 ms, Threshold trees = N/A, Time limit = N/A
+G2 - Cumulative total no. Molecules = 10, Computation time = 76.6 ms, Threshold trees = N/A, Time limit = N/A
+G3 - Cumulative total no. Molecules = 76, Computation time = 4.12 s, Threshold trees = N/A, Time limit = N/A
+G4 - Cumulative total no. Molecules = 698, Computation time = 5 h 23 min 38 s, Threshold trees = 500, Time limit = N/A
+G5 - 
+Non-spontaneous
+G1 - Cumulative total no. Molecules = 1, Computation time = 32.7 ms, Threshold trees = N/A, Time limit = N/A
+G2 - Cumulative total no. Molecules = 10, Computation time = 87.7 ms, Threshold trees = N/A, Time limit = N/A
+G3 - Cumulative total no. Molecules = 76, Computation time = 12.1 s, Threshold trees = N/A, Time limit = N/A
+G4 - Cumulative total no. Molecules = 698, Computation time = , Threshold trees = N/A, Time limit = N/A
+G5 - 
+
+Glucose:
+Spontaneous
+G1 - Cumulative total no. Molecules = 9, Computation time = 59.3 ms, Threshold trees = N/A, Time limit = N/A
+G2 - Cumulative total no. Molecules = 64, Computation time = 846 ms, Threshold trees = N/A, Time limit = N/A
+G3 - Cumulative total no. Molecules = 297, Computation time = 2 min 37 s, Threshold trees = N/A, Time limit = N/A
+G4 - 
+G5 - 
+Non-spontaneous
+G1 - Cumulative total no. Molecules = 9, Computation time = 56.4 ms, Threshold trees = N/A, Time limit = N/A
+G2 - Cumulative total no. Molecules = 64, Computation time = 1.09 s, Threshold trees = N/A, Time limit = N/A
+G3 - Cumulative total no. Molecules = 297, Computation time = 4 min 9 s, Threshold trees = N/A, Time limit = N/A
+G4 - 
+G5 - 

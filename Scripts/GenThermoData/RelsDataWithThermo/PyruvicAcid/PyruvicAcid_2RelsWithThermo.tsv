@@ -1,0 +1,29 @@
+Index	Reagents	Products	Rule	Energy Change
+3_0	['C(C(C)=O)(O)=O', 'C(C(C)=O)(O)=O']	['C(C(C)(CC(C(O)=O)=O)O)(O)=O']	Aldol Condensation	-12.87
+5_0	['C(C(C)=O)(O)=O', 'O']	['C(C(CO)O)(O)=O']	Hydration of C(=O)C	39.62
+8_0	['C(C(C)=O)(O)=O']	['C(C)=O', 'C(=O)=O']	Alpha-Keto Acid Decarboxylation	-58.14
+10_0	['C(C)=O', 'C(C)=O']	['C(CC(C)O)=O']	Aldol Condensation	-6.29
+12_0	['C(C)=O', 'C(=O)=O']	['C(CC(O)=O)=O']	Aldol Condensation	49.07
+14_0	['C(C(C)=O)(O)=O', 'C(C)=O']	['C(C(CC(C)O)=O)(O)=O']	Aldol Condensation	-11.91
+16_0	['C(C(C)=O)(O)=O', 'C(C)=O']	['C(C(C)(CC=O)O)(O)=O']	Aldol Condensation	-7.26
+18_0	['C(C(C)=O)(O)=O', 'C(=O)=O']	['C(CC(C(O)=O)=O)(O)=O']	Aldol Condensation	60.3
+20_0	['C(C(C)(CC(C(O)=O)=O)O)(O)=O']	['O', 'C(C(O)=O)(CC(C(C)=O)=O)=O']	Benzilic Acid Rearrangement (inverse)	2.44
+22_0	['C(C(CO)O)(O)=O']	['O', 'C(C(CO)=O)=O']	Benzilic Acid Rearrangement (inverse)	15.27
+23_0	['C(C(C)(CC(C(O)=O)=O)O)(O)=O']	['C(C(C)=O)(O)=O', 'C(C(C)=O)(O)=O']	Retro Aldol	12.87
+25_0	['C(C(CO)O)(O)=O', 'C(C)=O']	['C(C(CO)(C(C)O)O)(O)=O']	Knoevenagel C	-7.87
+25_1	['C(C(CO)O)(O)=O', 'C(C)=O']	['C(C(CO)(C(C)O)O)(O)=O']	Knoevenagel H	-7.87
+27_0	['C(C(CO)O)(O)=O', 'C(=O)=O']	['C(C(C(O)=O)(CO)O)(O)=O']	Knoevenagel C	57.17
+27_1	['C(C(CO)O)(O)=O', 'C(=O)=O']	['C(C(C(O)=O)(CO)O)(O)=O']	Knoevenagel H	57.17
+29_0	['C(C(C)=O)(O)=O', 'C(C(CO)O)(O)=O']	['C(C(CO)(C(C(O)=O)(C)O)O)(O)=O']	Knoevenagel C	-8.84
+29_1	['C(C(C)=O)(O)=O', 'C(C(CO)O)(O)=O']	['C(C(CO)(C(C(O)=O)(C)O)O)(O)=O']	Knoevenagel H	-8.84
+32_0	['C(C(CO)O)(O)=O']	['C=O', 'C(CO)(O)=O']	Knoevenagel H (inv)	9.87
+33_0	['C(C(CO)O)(O)=O']	['O', 'C(CC(O)=O)=O']	Elimination + enol to keto	-48.7
+34_0	['C(C(CO)O)(O)=O']	['C(C(C)=O)(O)=O', 'O']	Elimination + enol to keto	-39.62
+36_0	['C(C(C)(CC(C(O)=O)=O)O)(O)=O']	['O', 'C(C(C)=CC(C(O)=O)=O)(O)=O']	Elimination2	0.4
+38_0	['C(C(C)(CC(C(O)=O)=O)O)(O)=O']	['O', 'C=C(C(O)=O)CC(C(O)=O)=O']	Elimination2	0.4
+40_0	['O', 'C(C(C)(CC(C(O)=O)=O)O)(O)=O']	['C(C(C)(C(C(C(O)=O)O)O)O)(O)=O']	Hydration of C(=O)C	41.01
+42_0	['O', 'C(C)=O']	['C(CO)O']	Hydration of C(=O)C	43.23
+44_0	['C(C(C)(CC(C(O)=O)=O)O)(O)=O']	['C1(C(C)(CC(C(O)=O)(O)O1)O)=O']	Hemiacetal Formation for 5 membered rings	11.74
+45_0	['C(C(C)(CC(C(O)=O)=O)O)(O)=O']	['C(=O)=O', 'C(C(C)(CC=O)O)(O)=O']	Alpha-Keto Acid Decarboxylation	-52.53
+47_0	['C(C(C)(CC(C(O)=O)=O)O)(O)=O']	['O', 'C(C1(C)CC(C(O1)=O)=O)(O)=O']	Ring Closure 5 membered O, O	-23.62
+49_0	['C(C(C)(CC(C(O)=O)=O)O)(O)=O']	['O', 'C1(C(C)(CC(C(O1)=O)=O)O)=O']	Ring Closure 6 membered O, O	-14.03

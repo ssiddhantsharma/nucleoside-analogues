@@ -1,0 +1,4 @@
+Index	Reagents	Products	Rule	Energy Change
+3_0	['C(C(C)=O)(O)=O', 'C(C(C)=O)(O)=O']	['C(C(C)(CC(C(O)=O)=O)O)(O)=O']	Aldol Condensation	-12.87
+5_0	['C(C(C)=O)(O)=O', 'O']	['C(C(CO)O)(O)=O']	Hydration of C(=O)C	39.62
+8_0	['C(C(C)=O)(O)=O']	['C(C)=O', 'C(=O)=O']	Alpha-Keto Acid Decarboxylation	-58.14

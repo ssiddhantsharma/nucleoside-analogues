@@ -1,0 +1,46 @@
+G1	C(C(CO)O)(O)=O	RBNPOMFGQQGHHO	"C(C(CO)O)(O)=O
+├── C(C(C)=O)(O)=O
+└── O
+"
+G2	C(C(CO)(C(C)O)O)(O)=O	WKRKESUWTIYINN	"C(C(CO)(C(C)O)O)(O)=O
+├── C(C(CO)O)(O)=O
+│   ├── C(C(C)=O)(O)=O
+│   └── O
+└── C(C)=O
+    └── C(C(C)=O)(O)=O
+"
+G3	C(C(C(CC(O)=O)O)C(C)O)=O	YTCZJXDURLPWNQ	"C(C(C(CC(O)=O)O)C(C)O)=O
+├── C(CC(C)O)=O
+│   ├── C(C)=O
+│   │   └── C(C(C)=O)(O)=O
+│   └── C(C)=O
+│       └── C(C(C)=O)(O)=O
+└── C(CC(O)=O)=O
+    ├── C(=O)=O
+    │   └── C(C(C)=O)(O)=O
+    └── C(C)=O
+        └── C(C(C)=O)(O)=O
+"
+G3	C(C(C=O)C(CC(C)O)O)(O)=O	IHSFWOVWMRACIR	"C(C(C=O)C(CC(C)O)O)(O)=O
+├── C(CC(C)O)=O
+│   ├── C(C)=O
+│   │   └── C(C(C)=O)(O)=O
+│   └── C(C)=O
+│       └── C(C(C)=O)(O)=O
+└── C(CC(O)=O)=O
+    ├── C(=O)=O
+    │   └── C(C(C)=O)(O)=O
+    └── C(C)=O
+        └── C(C(C)=O)(O)=O
+"
+G3	C(C(C(C)O)C(C(CO)=O)O)=O	CPUSMWJJBISCJI	"C(C(C(C)O)C(C(CO)=O)O)=O
+├── C(C(CO)=O)=O
+│   └── C(C(CO)O)(O)=O
+│       ├── C(C(C)=O)(O)=O
+│       └── O
+└── C(CC(C)O)=O
+    ├── C(C)=O
+    │   └── C(C(C)=O)(O)=O
+    └── C(C)=O
+        └── C(C(C)=O)(O)=O
+"

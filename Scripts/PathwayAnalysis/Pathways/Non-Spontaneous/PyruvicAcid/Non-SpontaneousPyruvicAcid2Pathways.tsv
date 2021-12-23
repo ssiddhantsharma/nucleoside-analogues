@@ -1,0 +1,3 @@
+Generation	Smiles	Inchi	Energy Change	Reaction IDs
+G1	C(C(CO)O)(O)=O	RBNPOMFGQQGHHO	[39.62]	[['5_0']]
+G2	C(C(CO)(C(C)O)O)(O)=O	WKRKESUWTIYINN	[-26.390000000000004]	[['25_0', '5_0', '8_0']]
